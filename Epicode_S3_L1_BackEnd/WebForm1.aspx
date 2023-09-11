@@ -20,26 +20,28 @@
         </asp:DropDownList>
 
         <br />
-        <asp:Image ID="Image1" Width="200px" runat="server"/>
+        <br />
+        <asp:Image ID="Image1" Width="400px" runat="server"/>
         <p id="Price" runat="server"></p>
        
-        <p>Aggiungi Extra</p>
+        <p>Aggiungi Optional</p>
         <asp:CheckBoxList ID="CheckBoxList1" runat="server">
-            <asp:ListItem Value="330" Text="Vernice metallizzata (costo euro 330,00)"></asp:ListItem>
-            <asp:ListItem Value="180" Text="Fari Xeno (costo euro 180,00)"></asp:ListItem>
-            <asp:ListItem Value="1800" Text="Sistema navigazione satellitare (costo euro 1.800,00)"></asp:ListItem>
-            <asp:ListItem Value="2000" Text="Line Assistant (costo euro 2.000,00)"></asp:ListItem>
-            <asp:ListItem Value="155" Text="Ruota di scorta (costo euro 155,00)"></asp:ListItem>
-            <asp:ListItem Value="700" Text="Sedili/volante in pelle (costo euro 700,00)"></asp:ListItem>
+            <asp:ListItem Value="330" Text="Vernice metallizzata (euro 330,00)"></asp:ListItem>
+            <asp:ListItem Value="180" Text="Fari Xeno (euro 180,00)"></asp:ListItem>
+            <asp:ListItem Value="1800" Text="Sistema navigazione satellitare (euro 1.800,00)"></asp:ListItem>
+            <asp:ListItem Value="2000" Text="Line Assistant (euro 2.000,00)"></asp:ListItem>
+            <asp:ListItem Value="155" Text="Ruota di scorta (euro 155,00)"></asp:ListItem>
+            <asp:ListItem Value="700" Text="Sedili/volante in pelle (euro 700,00)"></asp:ListItem>
         </asp:CheckBoxList>
 
         <br />
+        <p>Aggiungi garanzia extra (120 per anno)</p>
         <asp:DropDownList ID="DropDownList2" runat="server" OnSelectedIndexChanged="DropDownList2_SelectedIndexChanged" >
-            <asp:ListItem Value="16" Text="Garanzia extra 1 anno (costo euro 120,00)"></asp:ListItem>
-            <asp:ListItem Value="17" Text="Garanzia extra 2 anno (costo euro 120,00)"></asp:ListItem>
-            <asp:ListItem Value="18" Text="Garanzia extra 3 anno (costo euro 120,00)"></asp:ListItem>
-            <asp:ListItem Value="19" Text="Garanzia extra 4 anno (costo euro 120,00)"></asp:ListItem>
-            <asp:ListItem Value="20" Text="Garanzia extra 5 anno (costo euro 120,00)"></asp:ListItem>
+            <asp:ListItem Value="16" Text="Garanzia extra 1 anno"></asp:ListItem>
+            <asp:ListItem Value="17" Text="Garanzia extra 2 anni"></asp:ListItem>
+            <asp:ListItem Value="18" Text="Garanzia extra 3 anni"></asp:ListItem>
+            <asp:ListItem Value="19" Text="Garanzia extra 4 anni"></asp:ListItem>
+            <asp:ListItem Value="20" Text="Garanzia extra 5 anni"></asp:ListItem>
         </asp:DropDownList>
 
         <p id="Result" runat="server"></p>
